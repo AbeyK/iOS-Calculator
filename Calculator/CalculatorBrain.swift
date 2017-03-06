@@ -25,7 +25,13 @@ struct CalculatorBrain {
     ]
     
     mutating func performOperation(_ symbol: String){
-        if let constant = operations[symbol]{
+        if let operation = operations[symbol]{
+            switch operation {
+            case .constant(let value):
+                accumulator = value
+            case .unaryOperation:
+                break
+            }
             
         }
         
