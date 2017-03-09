@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  Calculator 2.0
+//  Calculator
 //
 //  Created by Abey Koolipurackal on 3/8/17.
 //  Copyright © 2017 abeykool. All rights reserved.
